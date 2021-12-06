@@ -48,6 +48,11 @@ router.get('/login', (req,res) => {
   res.render('login');
 });
 
+//get login
+router.get('/signup', (req,res) => {
+  res.render('signup');
+});
+
 // console.logs session variables
 router.get('/', (req, res) => {
   console.log(req.session)
