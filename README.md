@@ -2,7 +2,7 @@
  
 
 ## Description
-This application was build for users to post articles on a blog and comment their thought on it.
+This application was build for users to post articles on a blog and comment their thoughts on it.
 
 
 ## Table of Contents
@@ -46,10 +46,12 @@ There are no testing dependencies for the deployed application.
 ## Links
 - GitHub Repository Link
 
+git@github.com:leslyr562/MVC.git
+
 
 
 - Link to Deployed Application on Heroku
-
+https://cryptic-fortress-69664.herokuapp.com/
 
 ## Version
 
@@ -58,5 +60,6 @@ There are no testing dependencies for the deployed application.
 ## Authors
 
 - Lesly Gonzalez
-- Github account: leslyr562
+Screenshots of app are in the image folder in public
+
 

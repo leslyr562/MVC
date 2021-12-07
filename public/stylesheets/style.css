@@ -22,11 +22,8 @@
   }
   
   h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h2
+  {
     font-weight: 700;
     margin: 0;
     color: var(--dark);
@@ -37,16 +34,49 @@
     margin: 20px auto;
     width: 94%;
   }
+  nav {
+    background-color: var(--dark);
+  }
+  header{
+    background-color: var(--dark);
+  }
   
   p {
     font-size: 1.2rem;
+  }
+  .btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 100%;
+    font-weight: bold;
+    transition: color .1s;
+    margin-left: 16px;
+  }
+  .btn-2{
+    font-size: 1.3rem;
+    text-decoration:none;
+    padding: 2px 6px;
+    width: 15%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: var(--primary);
+    border: none;
+    outline: none;
+    background-color: var(--light-dark);
+    box-shadow: 3px 3px var(--dark);
+    transform: translate(-1px, -1px);
   }
   
    .btn {
     font-size: 1.3rem;
     text-decoration:none;
-    padding: 6px 5px;
-    width: 100%;
+    padding: 2px 6px;
+    width: 25%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
@@ -96,6 +126,10 @@
     padding: 3% 4%;
     background-color: var(--dark);
     color: var(--primary);
+  }
+  
+  .btn-light {
+    color: var(--light-dark)
   }
   
   .hero p {
